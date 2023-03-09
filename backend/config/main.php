@@ -79,12 +79,6 @@ return [
             'assignmentTable' => '{{%auth_assignment}}',
             'ruleTable' => '{{%auth_rule}}',
         ],
-        'as access' => [
-            'class' => 'mdm\admin\components\AccessControl',
-            'allowActions' => [
-                'site/*', // tambahkan action-action yg lain di sini
-            ]
-        ],
     ],
     'params' => $params,
 ];
